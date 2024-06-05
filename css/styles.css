@@ -274,6 +274,7 @@ body {
 canvas {
   width: 100% !important;
   height: auto !important;
+  min-height: 600;
 }
 
 /* ---------- MEDIA QUERIES ---------- */
