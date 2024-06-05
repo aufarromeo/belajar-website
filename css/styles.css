@@ -270,6 +270,11 @@ body {
   justify-content: center;
 }
 
+canvas {
+  width: 100% !important;
+  height: auto !important;
+}
+
 /* ---------- MEDIA QUERIES ---------- */
 
 .article {
@@ -332,6 +337,19 @@ body {
 @media screen and (max-width: 576px) {
   .hedaer-left {
     display: none;
+  }
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+  .charts {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1024px) {
+  .charts {
+    grid-template-columns: 1fr 1fr ;
   }
 }
 
